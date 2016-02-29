@@ -1,0 +1,3 @@
+{:require  [scopeciui.app]
+ :init-fns [scopeciui.app/init]
+ :compiler-options {:asset-path "js/app.out"}}
