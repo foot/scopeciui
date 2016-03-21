@@ -39,7 +39,7 @@ function buildTree(head, commitParents, children) {
 }
 
 
-var toData = function(parents, nodeList) {
+function toData(parents, nodeList) {
 
 		var nodes = {};
 		var root = null;
@@ -85,8 +85,4 @@ var toData = function(parents, nodeList) {
     }
 
 		return [nodeList, nodes[root]];
-};
-
-window.graphlib = {
-  toData: toData
 };

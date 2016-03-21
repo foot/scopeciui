@@ -302,7 +302,7 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 } else {
 var vec__18264 = (function (){var G__18265 = cljs.core.clj__GT_js(node_parents);
 var G__18266 = cljs.core.clj__GT_js(node_list);
-return graphlib.toData(G__18265,G__18266);
+return toData(G__18265,G__18266);
 })();
 var js_node_list = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18264,(0),null);
 var js_data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18264,(1),null);
